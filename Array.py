@@ -1,3 +1,4 @@
+#%%
 '''
 268. Missing Number
 在一个包含0, 1, 2, ..., n的数组中，找到缺失的那个数，只有一个
@@ -12,3 +13,5 @@ class Solution(object):
         :rtype: int
         """
         return len(nums)*(len(nums)+1)/2- sum(nums)
+
+    #%%
